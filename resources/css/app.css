@@ -1,0 +1,37 @@
+/* Custom Sidebar Styles */
+#sidebar {
+    background-color: #f8f9fa; /* Light background color for the sidebar */
+    border-right: 1px solid #dee2e6; /* Subtle border to separate the sidebar */
+}
+
+.nav-link {
+    color: #495057; /* Darker text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.nav-link.active {
+    background-color: #007bff; /* Highlight color for active links */
+    color: white; /* White text for active links */
+}
+
+.nav-link:hover {
+    background-color: #e9ecef; /* Light background color on hover */
+    color: #007bff; /* Change text color on hover */
+}
+
+.dropdown-menu {
+    background-color: #ffffff; /* Background color for dropdown menus */
+    border: 1px solid #dee2e6; /* Border for dropdown menus */
+}
+
+.dropdown-item:hover {
+    background-color: #e9ecef; /* Background color for dropdown items on hover */
+}
+
+
+/* Hide days from the previous and next months */
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay {
+    visibility: hidden;
+}
+
